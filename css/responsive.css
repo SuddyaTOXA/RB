@@ -1,6 +1,19 @@
 /*--------------------------------------MEDIA-----------------------------------------*/
-@media all and (min-width: 1920px) {
-
+@media all and (max-width: 1940px) {
+    .squirrel_h {
+        bottom: 86px;
+        right: 744px;
+    }
+    .pig_h {
+        bottom: -5px;
+        right: 328px;
+    }
+}
+@media all and (max-width: 1800px) {
+    .horse_h,
+    .cloud-box {
+        display: none;
+    }
 }
 @media all and (max-width: 1600px) {
     a.hero-apy-link,
@@ -15,6 +28,9 @@
     }
     .financing-person-box {
         right: 55px;
+    }
+    .table-box {
+        min-height: 525px;
     }
 }
 @media all and (max-width: 1490px) {
@@ -54,15 +70,15 @@
     .lenders-list.home-loans .lender-info {
         padding: 32px 26px 40px;
     }
-    .hero-value {
-        top: 0;
-        font-size: 230px;
-    }
-        .hero-value sup {
-            top: -37px;
-            padding-left: 12px;
-            font-size: 80px;
-        }
+    /*.hero-value {*/
+        /*top: 0;*/
+        /*font-size: 230px;*/
+    /*}*/
+        /*.hero-value sup {*/
+            /*top: -37px;*/
+            /*padding-left: 12px;*/
+            /*font-size: 80px;*/
+        /*}*/
         .value-info {
             bottom: 24px;
             max-width: 40px;
@@ -389,13 +405,13 @@
     .footer-coll-list > li.big-coll {
         width: 40%;
     }
-    .hero-value {
-        font-size: 200px;
-    }
-    .hero-value sup {
-        top: -32px;
-        font-size: 70px;
-    }
+    /*.hero-value {*/
+        /*font-size: 200px;*/
+    /*}*/
+    /*.hero-value sup {*/
+        /*top: -32px;*/
+        /*font-size: 70px;*/
+    /*}*/
     .hero-title {
         font-size: 50px;
     }
@@ -947,15 +963,15 @@
         .hero-desc {
             display: none;
         }
-            .hero-value {
-                top: 0;
-                font-size: 120px;
-            }
-            .hero-value sup {
-                top: -15px;
-                padding-left: 15px;
-                font-size: 46px;
-            }
+            /*.hero-value {*/
+                /*top: 0;*/
+                /*font-size: 120px;*/
+            /*}*/
+            /*.hero-value sup {*/
+                /*top: -15px;*/
+                /*padding-left: 15px;*/
+                /*font-size: 46px;*/
+            /*}*/
                 .value-info.desktop-d {
                     display: none;
                 }
