@@ -4990,6 +4990,7 @@ a.nav-btn:after,
                         margin-bottom: 13px;
                     }
                     .map-default-desc a {
+                        font-size: 18px;
                         text-decoration: underline;
                     }
                     .map-default-desc a:hover,
