@@ -330,6 +330,7 @@ a.btn-login:focus:after,
     top: 1px;
     min-width: 78px;
     padding: 23px 23px 19px;
+    font-family: "Lato", Arial, sans-serif;
     font-size: 16px;
     border: none;
     color: #999999;
@@ -1763,14 +1764,17 @@ a.nav-btn:after,
                         }
                             .hero-value sup {
                                 position: relative;
+                                display: inline-block;
                                 margin-left: -26px;
-                                padding-bottom: 25px;
+                                /*padding-bottom: 25px;*/
                                 font-size: 74px;
+                                line-height: 1;
+                                height: 74px;
                             }
                             .hero-value span {
                                 position: absolute;
                                 left: 3px;
-                                bottom: 0;
+                                bottom: -32px;
                                 font-family: "Lato", Arial, sans-serif;
                                 font-size: 18px;
                                 font-weight: 400;
