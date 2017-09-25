@@ -3413,27 +3413,32 @@ a.nav-btn:after,
         z-index: 200;
         bottom: 0;
         left: 0;
+        pointer-events: none;
     }
     .pig {
         position: absolute;
         z-index: 200;
         top: -50px;
         left: 532px;
+        pointer-events: none;
     }
     .sheep {
         position: absolute;
         top: -17px;
         left: 660px;
+        pointer-events: none;
     }
     .card {
         position: absolute;
         z-index: 200;
         top: 615px;
         left: 758px;
+        pointer-events: none;
     }
     .mega-money .card {
         top: 615px;
         left: 758px;
+        pointer-events: none;
     }
         .section-rewards-checking .content {
             max-width: 650px;
