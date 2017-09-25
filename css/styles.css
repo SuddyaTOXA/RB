@@ -4441,8 +4441,9 @@ a.nav-btn:after,
 .section-map {
     position: relative;
     overflow: hidden;
-    height:  -webkit-calc(100vh - 74px);
-    height: calc(100vh - 74px);
+    height: 100vh;
+    height:  -webkit-calc(100vh - 92px);
+    height: calc(100vh - 92px);
 }
     .mob-map-nav {
         display: none;
@@ -4948,6 +4949,7 @@ a.nav-btn:after,
                     margin-bottom: 16px;
                     font-size: 17px;
                     font-weight: 700;
+                    letter-spacing: .11em;
                     color: #444444;
                     text-align: center;
                 }
@@ -4976,7 +4978,7 @@ a.nav-btn:after,
                     .map-default-zip-box .btn-search:hover,
                     .map-default-zip-box .btn-search:focus {
                         color: #ffffff;
-                        background-color: #005DE8;
+                        background-color: #d4000d;
                     }
                 .map-default-desc {
                     font-size: 18px;
@@ -4989,6 +4991,10 @@ a.nav-btn:after,
                     }
                     .map-default-desc a {
                         text-decoration: underline;
+                    }
+                    .map-default-desc a:hover,
+                    .map-default-desc a:focus {
+                        text-decoration: none;
                     }
         .horse {
             position: absolute;
