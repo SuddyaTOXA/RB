@@ -494,7 +494,7 @@ input:focus:-moz-placeholder { opacity: 0; }
     margin-bottom: -620px;
     background-image: url(../img/body_bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: top center;
 }
 .wrapper:after {
