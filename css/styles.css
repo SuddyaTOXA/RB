@@ -702,8 +702,14 @@ input:focus:-moz-placeholder { opacity: 0; }
             transition: 0.35s;
         }
         .home .logo {
-            margin-top: 16px;
-            max-width: 351px;
+            margin-top: 15px;
+            max-width: 363px;
+        }
+        .home .desktop-logo {
+            display: none;
+        }
+        .home .home-logo {
+            display: inline-block;
         }
             .logo img {
                 max-width: 100%;
@@ -1614,7 +1620,7 @@ a.nav-btn:after,
     }
         .cloud-box {
             position: absolute;
-            z-index: 10;
+            z-index: 15;
             display: inline-block;
             left: 433px;
             bottom: 573px;
