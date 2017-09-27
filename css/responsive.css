@@ -292,7 +292,7 @@
     }
     .section-map {
         min-height: 460px;
-        height:  -webkit-calc(100vh - 58px);
+        height: -webkit-calc(100vh - 58px);
         height: calc(100vh - 58px);
     }
     .top-bar-list,
@@ -790,7 +790,7 @@
     .section-title-box {
         display: table;
         width: 100%;
-        margin-top: -36px;
+        margin-top: -16px;
         margin-bottom: 14px;
     }
         .section-title-box .section-title {
