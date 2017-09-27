@@ -710,6 +710,9 @@ input:focus:-moz-placeholder { opacity: 0; }
         .home .desktop-logo {
             display: none;
         }
+        .home-logo {
+            display: none;
+        }
         .home .home-logo {
             display: inline-block;
         }
@@ -718,10 +721,10 @@ input:focus:-moz-placeholder { opacity: 0; }
                 max-height: 100%;
                 padding: 10px 10px 10px;
             }
-            .mob-logo {
-                display: none;
-                max-width: 181.5px;
-            }
+            /*.mob-logo {*/
+                /*display: none;*/
+                /*max-width: 181.5px;*/
+            /*}*/
 .search-box {
     display: none;
     position: absolute;
@@ -1251,7 +1254,7 @@ a.nav-btn:after,
             line-height: 1;
             letter-spacing: 0.02em;
             padding: 9px 0 9px;
-            color: #005de8;
+            color: #d4000d;
         }
         .mobile-menu > li > a {
             font-size: 24px;
@@ -1336,7 +1339,7 @@ a.nav-btn:after,
                         line-height: 1;
                         -webkit-font-smoothing: antialiased;
                         -moz-osx-font-smoothing: grayscale;
-                        color: #005ce8;
+                        color: #d4000d;
                         -webkit-transform-origin: center center;
                         -moz-transform-origin: center center;
                         -o-transform-origin: center center;
@@ -1357,7 +1360,7 @@ a.nav-btn:after,
                     }
 
 .mobile-menu:hover:after {
-    color: #0097de; }
+    color: #d4000d; }
 .mobile-menu.open:after {
     content: "\f106"; }
 
@@ -1915,18 +1918,18 @@ a.nav-btn:after,
                 /*font-size: 131px;*/
                 /*font-weight: 700;*/
             /*}*/
-            .value-info {
-                position: absolute;
-                bottom: 71px;
-                right: 0;
-                max-width: 88px;
-                font-family: 'FreightSansProBook-Regular', Arial, sans-serif;
-                font-size: 16px;
-                line-height: 1.2;
-            }
-            .value-info.mob {
-                display: none;
-            }
+            /*.value-info {*/
+                /*position: absolute;*/
+                /*bottom: 71px;*/
+                /*right: 0;*/
+                /*max-width: 88px;*/
+                /*font-family: 'FreightSansProBook-Regular', Arial, sans-serif;*/
+                /*font-size: 16px;*/
+                /*line-height: 1.2;*/
+            /*}*/
+            /*.value-info.mob {*/
+                /*display: none;*/
+            /*}*/
     a.hero-apy-link,
     .hero-apy-link {
         position: absolute;
@@ -3412,6 +3415,7 @@ a.nav-btn:after,
                     }
 /*-------------------------------------SECTION-REWARDS-CHECKING---------------------*/
 .section-rewards-checking {
+    overflow: hidden;
     padding-top: 86px;
     padding-bottom: 80px;
 }
@@ -3426,15 +3430,37 @@ a.nav-btn:after,
         left: 0;
         pointer-events: none;
     }
+    .money {
+        position: fixed;
+        z-index: 200;
+        bottom: 76px;
+        left: 369px;
+        pointer-events: none;
+    }
     .pig {
         position: absolute;
         z-index: 200;
+        top: 29px;
+        left: 683px;
+        pointer-events: none;
+    }
+    .pig-b {
+        position: absolute;
+        z-index: 201;
         top: -50px;
         left: 532px;
         pointer-events: none;
     }
     .sheep {
         position: absolute;
+        z-index: 200;
+        top: 114px;
+        left: 775px;
+        pointer-events: none;
+    }
+    .sheep-b {
+        position: absolute;
+        z-index: 201;
         top: -17px;
         left: 660px;
         pointer-events: none;
@@ -3444,6 +3470,13 @@ a.nav-btn:after,
         z-index: 200;
         top: 615px;
         left: 758px;
+        pointer-events: none;
+    }
+    .card-b {
+        position: absolute;
+        z-index: 201;
+        top: 954px;
+        left: 847px;
         pointer-events: none;
     }
     .mega-money .card {
@@ -4471,7 +4504,7 @@ a.nav-btn:after,
             width: 40px;
             height: 40px;
             text-align: center;
-            background-color: #005de8;
+            background-color: #d4000d;
             cursor: pointer;
         }
         .mob-toggle .fa {
@@ -4512,7 +4545,7 @@ a.nav-btn:after,
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #005de8;
+        background-color: #d4000d;
     }
         .map img {
             position: absolute;
@@ -4685,7 +4718,7 @@ a.nav-btn:after,
                 .nav-tabs-list > li a:focus {
                     color: #ffffff;
                     text-decoration: none;
-                    background-color: #005de8;
+                    background-color: #d4000d;
                 }
             .nav-tabs-table {
                 display: table;
@@ -4759,7 +4792,7 @@ a.nav-btn:after,
                                     top: 1px;
                                     left: -4px;
                                     font-size: 26px;
-                                    color: #005de8;
+                                    color: #d4000d;
                                 }
                                 .tab-box .icon-atm {
                                     position: absolute;
@@ -4881,7 +4914,7 @@ a.nav-btn:after,
                                     a.map-hour:focus:after,
                                     .map-hour:hover:after,
                                     .map-hour:focus:after {
-                                        color: #005de8;
+                                        color: #d4000d;
                                     }
                                 .map-hour-box {
                                     display: none;
@@ -5174,7 +5207,7 @@ a.nav-btn:after,
         }
         .search-zip-box:before {
             position: absolute;
-            content: '\e902';
+            /*content: '\e902';*/
             top: 50%;
             left: 16px;
             font-family: 'icomoon-aab' !important;
