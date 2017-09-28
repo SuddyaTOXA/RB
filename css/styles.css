@@ -1100,7 +1100,6 @@ a.nav-btn:after,
                 -moz-transition: 0.25s;
                 -o-transition: 0.25s;
                 transition: 0.25s;
-                opacity: .5;
             }
             .login span:hover,
             .login span:focus,
