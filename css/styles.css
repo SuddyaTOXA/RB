@@ -1074,6 +1074,7 @@ a.nav-btn:after,
             -moz-transition: 0.25s;
             -o-transition: 0.25s;
             transition: 0.25s;
+            opacity: .5;
         }
             .login span:before {
                 position: absolute;
@@ -1099,7 +1100,15 @@ a.nav-btn:after,
                 -moz-transition: 0.25s;
                 -o-transition: 0.25s;
                 transition: 0.25s;
+                opacity: .5;
             }
+            .login span:hover,
+            .login span:focus,
+            .login span:hover:before,
+            .login span:focus:before {
+                opacity: 1;
+            }
+
     .header-login-box .login:hover,
     .header-login-box .login:focus {
         text-decoration: none;
