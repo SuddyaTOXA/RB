@@ -669,6 +669,9 @@ input:focus:-moz-placeholder { opacity: 0; }
         .home .home-logo {
             display: inline-block;
         }
+        .mob-logo {
+            display: none;
+        }
             .logo img {
                 max-width: 100%;
                 max-height: 100%;
@@ -750,7 +753,7 @@ input:focus:-moz-placeholder { opacity: 0; }
     right: 0;
     height: 0;
     width: 0;
-    top: 58px;
+    top: 62px;
     -webkit-transition-delay: 0.35s;
     -moz-transition-delay: 0.35s;
     -o-transition-delay: 0.35s;
@@ -1820,8 +1823,65 @@ a.nav-btn:after,
                         color: #D8C0A9;
                         text-shadow: 0 8px 15px rgba(73, 63, 31, 0.35);
                     }
+                a.btn-more-accounts,
+                .btn-more-accounts {
+                    display: none;
+                    position: absolute;
+                    z-index: 50;
+                    right: 160px;
+                    bottom: 132px;
+                    padding-right: 25px;
+                    max-width: 130px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1;
+                    color: #ffffff;
+                    text-align: right;
+                    text-transform: uppercase;
+                }
+                a.btn-more-accounts:after,
+                .btn-more-accounts:after {
+                    position: absolute;
+                    content: '\e900';
+                    top: 50%;
+                    right: 5px;
+                    font-size: 20px;
+                    font-family: 'icomoon-rb' !important;
+                    speak: none;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    color: #ffffff;
+                    -webkit-transition: 0.2s;
+                    -moz-transition: 0.2s;
+                    -o-transition: 0.2s;
+                    transition: 0.2s;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-transform: translate(0, -50%);
+                    -ms-transform: translate(0, -50%);
+                    -webkit-transform: translate(0, -50%);
+                    -o-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+                }
+                a.btn-more-accounts:hover,
+                .btn-more-accounts:hover,
+                a.btn-more-accounts:focus,
+                .btn-more-accounts:focus {
+                    opacity: .7;
+                    text-decoration: none;
+                }
+                a.btn-more-accounts:hover:after,
+                .btn-more-accounts:hover:after,
+                a.btn-more-accounts:focus:after,
+                .btn-more-accounts:focus:after {
+                    right: 0;
+                }
 
-    .section-title {
+.section-title {
         margin-bottom: 20px;
         font-family: "Hombre", Arial, sans-serif;
         font-size: 80px;
@@ -3187,14 +3247,22 @@ a.nav-btn:after,
                 margin-bottom: 0;
                 padding: 8px 0 7px;
                 text-align: center;
+                letter-spacing: .02em;
             }
-        .footer-mob-zip-search {
+        .footer-mob-btn {
             display: none;
-            margin-bottom: 28px;
+            margin-bottom: 23px;
         }
-            .footer-mob-zip-search .coll-title {
-                margin-bottom: 10px;
+            .footer-mob-btn .coll-title {
+                margin-bottom: 15px;
                 text-align: center;
+                letter-spacing: .02em;
+            }
+            .footer-mob-btn a.btn-big,
+            .footer-mob-btn .btn-big {
+                min-width: 100%;
+                letter-spacing: .17em;
+                word-spacing: .18em;
             }
         .search-zip-box {
             position: relative;
@@ -3300,6 +3368,9 @@ a.nav-btn:after,
                     letter-spacing: 0.02em;
                     word-spacing: 0.08em;
                     color: #444444;
+                }
+                .copyright.mobile {
+                    display: none;
                 }
                 .copyright {
                     display: block;

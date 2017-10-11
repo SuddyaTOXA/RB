@@ -10,9 +10,15 @@
     }
 }
 @media all and (max-width: 1800px) {
-    .horse_h,
+    /*.horse_h,*/
+    /*.cloud-box {*/
+        /*display: none;*/
+    /*}*/
+    .horse_h {
+        max-width: 280px;
+    }
     .cloud-box {
-        display: none;
+        left: 260px;
     }
 }
 @media all and (max-width: 1600px) {
@@ -21,19 +27,61 @@
         margin-right: 40px;
     }
     .table-box {
-        height: 525px;
+        /*height: 525px;*/
     }
 }
 @media all and (max-width: 1490px) {
+    .squirrel_h,
+    .pig_h {
+        display: none;
+    }
+    .rope_h {
+        bottom: 470px;
+    }
     .table-box {
         width: 100%;
         max-width: 1300px;
         min-width: auto;
     }
+    .cloud-box {
+        left: 250px;
+        bottom: 476px;
+        width: 245px;
+        height: 205px;
+        padding: 47px 29px 68px;
+    }
+        .cloud-text-box {
+            font-size: 36px;
+        }
+
+        .hero-list {
+            top: 40px;
+            padding-left: 340px;
+            text-align: left;
+        }
+            .rotate-left {
+                top: -25px;
+            }
+            .rotate-right {
+                display: none;
+            }
+    a.btn-more-accounts,
+    .btn-more-accounts {
+        display: inline-block;
+    }
+    .table-box {
+        height: 525px;
+    }
 }
 
-@media all and (max-width: 1440px) {
-
+@media all and (max-width: 1380px) {
+    /*.horse_h,*/
+    /*.cloud-box {*/
+        /*display: block;*/
+    /*}*/
+    .horse_h {
+        max-width: 260px;
+    }
 }
 
 
@@ -69,6 +117,12 @@
     .footer-coll-list > li.coll-first {
         padding-right: 10px;
     }
+    .rotate-left {
+        display: none;
+    }
+    .yep-cell span {
+        font-size: 80px;
+    }
 }
 
 @media all and (max-width: 1120px) {
@@ -82,10 +136,10 @@
 }
 
 @media all and (max-width: 1080px) {
-    .table-cell-box {
-        display: table;
-        height: auto;
-    }
+    /*.table-cell-box {*/
+        /*display: table;*/
+        /*height: auto;*/
+    /*}*/
     .table-box .left-box,
     .table-box .right-box {
         float: none;
@@ -106,6 +160,61 @@
     .section-title-box {
         margin-top: 0;
         margin-bottom: 40px;
+    }
+    .home .wrapper {
+        overflow: hidden;
+    }
+    .rope_h {
+        top: -55px;
+        right: auto;
+        bottom: auto;
+        left: -203px;
+    }
+    .hero-list {
+        top: -30px;
+        padding-left: 340px;
+    }
+    .hero-wrap {
+        max-width: 260px;
+    }
+    .hero-wrap-inner {
+        height: 240px;
+        padding: 20px 40px 20px 40px;
+    }
+        img.clothespin-1 {
+            width: 65px;
+            top: -130px;
+            margin-left: -42px;
+        }
+            .hero-value {
+                font-size: 100px;
+            }
+            .hero-value sup {
+                margin-left: -22px;
+                font-size: 50px;
+            }
+            .hero-value span {
+                bottom: -2px;
+                font-size: 14px;
+            }
+            .hero-value-desc {
+                font-size: 13px;
+            }
+            a.hero-apy, .hero-apy {
+                margin-left: 8px;
+                font-size: 10px;
+            }
+            .hero-btn-box a.btn, .hero-btn-box .btn {
+                font-size: 10px;
+                min-width: 120px;
+            }
+    .yep-cell span {
+        font-size: 70px;
+    }
+    a.btn-more-accounts, .btn-more-accounts {
+        right: 120px;
+        max-width: 100px;
+        font-size: 13px;
     }
 }
 
@@ -236,26 +345,33 @@
         margin: 0 25px 35px;
         float: none;
     }
-    .header {
+    .header,
+    .home .header {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        min-height: 58px;
+        min-height: 62px;
+        background-color: #D4000D;
     }
+    .home .logo,
     .logo {
         position: relative;
-        top: 4px;
         float: none;
-        max-width: 140px;
+        max-width: 170px;
         display: block;
         margin: 0 auto;
         padding: 0;
     }
-    .home .logo {
-        margin-top: 0;
-        max-width: 182px;
+    /*.home .logo {*/
+        /*margin-top: 0;*/
+        /*max-width: 182px;*/
+    /*}*/
+    .mob-logo {
+        display: block;
     }
+    .home .home-logo,
+    .desktop-logo { display: none }
     /*.desktop-logo { display: none; }*/
     /*.mob-logo { display: block; }*/
     .hide-el { display: block; }
@@ -313,6 +429,12 @@
     .sheep,
     .sheep-b {
         display: none;
+    }
+    .rope_h {
+        top: -15px;
+    }
+    .hero-list {
+        top: 45px;
     }
 }
 
@@ -433,6 +555,13 @@
     .footer-coll-list > li.big-coll {
         width: 50%;
     }
+    .hero-list {
+        top: 27px;
+        padding-left: 280px;
+    }
+    .yep-cell span {
+        font-size: 60px;
+    }
 }
 
 @media all and (max-width: 790px) {
@@ -490,6 +619,7 @@
         }
         .have-questions {
             font-size: 16px;
+            letter-spacing: .02em;
         }
             .have-questions a {
                 display: block;
@@ -500,12 +630,16 @@
         }
         .footer-mob-menu {
             display: block;
-            margin-bottom: 30px;
+            max-width: 270px;
+            margin: 0 auto 32px;
         }
             a.coll-title, .coll-title {
                 font-size: 15px;
                 line-height: 1;
             }
+        .footer-right-cell img {
+            max-width: 72px;
+        }
     .footer-top-box {
         left: 0;
         margin-bottom: 0;
@@ -514,7 +648,7 @@
         padding-top: 27px;
         padding-bottom: 16px;
     }
-    .footer-mob-zip-search {
+    .footer-mob-btn {
         display: block;
     }
         .search-zip-style {
@@ -528,6 +662,9 @@
         .footer-right-cell {
             padding: 0;
             text-align: center;
+        }
+        .footer-left-cell {
+            padding-top: 12px;
         }
             #footer .btn.btn-search {
                 display: none;
@@ -576,23 +713,29 @@
                 font-size: 14px;
             }
     .footer-bottom-box {
-        padding-top: 11px;
-        border-top: none;
+        padding-top: 36px;
+        border-top: 1px solid #C0C0C0;
     }
         .power-by {
             display: none;
         }
         .pre-copyright,
         .copyright {
-            margin-bottom: 5px;
+            display: none;
+            margin-bottom: -5px;
             font-size: 10px;
             text-align: center;
             line-height: 1.8;
             letter-spacing: 0;
             word-spacing: 0;
         }
+        .copyright.mobile {
+            display: block;
+        }
         .routing {
-            font-size: 14px;
+            margin-bottom: 14px;
+            font-size: 15px;
+            letter-spacing: -.04em;
         }
         .footer-bottom-menu {
             margin-left: 0;
@@ -607,20 +750,20 @@
             }
                 .footer-bottom-menu > li a {
                     font-size: 10px;
-                    padding-left: 10px;
-                    padding-right: 10px;
+                    padding-left: 7px;
+                    padding-right: 7px;
                 }
-            a.full-site,
-            .full-site {
-                display: block;
-            }
+            /*a.full-site,*/
+            /*.full-site {*/
+                /*display: block;*/
+            /*}*/
 
 
  /*----------MAIN----------*/
-.table-cell-box {
-    display: table;
-    height: auto;
-}
+/*.table-cell-box {*/
+    /*display: table;*/
+    /*height: auto;*/
+/*}*/
     .table-box .left-box,
     .table-box .right-box {
         float: none;
@@ -637,7 +780,7 @@
                 font-size: 16px;
             }
             .table-box {
-                height: 430px;
+                height: 475px;
                 padding-top: 47px;
             }
                 .table-box a.btn,
@@ -956,5 +1099,145 @@
     .have-questions a {
         padding-left: 0;
     }
+
+.section-hero {
+    padding-bottom: 30px;
+}
+    .yep-box {
+        margin-bottom: -60px;
+        /*background-repeat: repeat-x;*/
+        /*background-position: left;*/
+        /*background-size: auto;*/
+    }
+    .yep-box .container {
+        max-width: 320px;
+        height: 140px;
+        padding-bottom: 65px;
+    }
+        .yep-box span {
+            font-size: 33px;
+            letter-spacing: .04em;
+        }
+    .rope_h {
+        min-width: 800px;
+        left: -5px;
+        top: 155px
+    }
+    .goat_h {
+        display: none;
+    }
+    .horse_h {
+        max-width: 210px;
+        bottom: 8px;
+    }
+        .cloud-box {
+            left: 216px;
+            bottom: 340px;
+            width: 159px;
+            height: 132px;
+            padding: 27px 10px 43px 17px;
+        }
+            .cloud-text-box {
+                font-size: 24px;
+            }
+        .hero-list {
+            top: -30px;
+            padding-left: 230px;
+        }
+            .hero-wrap {
+                max-width: 210px;
+            }
+                .hero-wrap-inner {
+                    height: 195px;
+                    padding: 20px 20px 20px 32px;
+                }
+
+    img.clothespin-1 {
+        width: 51px;
+        top: -97px;
+        margin-left: -25px;
+    }
+
+
+
+    .hero-value {
+        font-size: 75px;
+        letter-spacing: -.02em;
+    }
+    .hero-value sup {
+        height: 56px;
+        font-size: 43px;
+        margin-left: -14px;
+    }
+    .hero-value span {
+        font-size: 10px;
+    }
+    .hero-value-desc {
+        margin-top: 2px;
+        margin-bottom: 8px;
+        font-size: 9px;
+    }
+    a.hero-apy, .hero-apy {
+        top: 4px;
+        font-size: 7px;
+    }
+    .hero-btn-box a.btn,
+    .hero-btn-box .btn {
+        font-size: 7px;
+        margin-left: 3px;
+        margin-right: 0;
+        padding: 8px 11px 8px;
+        min-width: 100px;
+    }
+    a.btn-more-accounts,
+    .btn-more-accounts {
+        right: 15px;
+        bottom: 26px;
+        width: 80px;
+        font-size: 8px;
+        line-height: 1.4;
+    }
+    a.btn-more-accounts:after,
+    .btn-more-accounts:after {
+        font-size: 13px;
+    }
 }
 
+@media all and (max-width: 520px) {
+    .rope_h {
+        top: 163px;
+    }
+    .hero-list {
+        top: -28px;
+        padding-left: 0;
+        text-align: right;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .hero-list {
+        margin-right: -60px;
+    }
+}
+@media all and (max-width: 370px) {
+    .rope_h {
+        top: 205px;
+    }
+    .horse_h {
+        max-width: 180px;
+        bottom: 8px;
+        left: -30px;
+    }
+        .cloud-box {
+            left: 140px;
+            bottom: 300px;
+        }
+        .hero-list {
+            top: 0;
+        }
+    a.btn-more-accounts,
+    .btn-more-accounts {
+        bottom: 16px;
+    }
+}
