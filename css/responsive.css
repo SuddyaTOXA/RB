@@ -86,6 +86,7 @@
 
 
 @media all and (max-width: 1300px) {
+    .home .logo,
     .logo {
         max-width: 240px;
         margin-top: 7px;
@@ -97,7 +98,7 @@
         font-size: 18px;
     }
     .header-login-box {
-        max-width: 225px;
+        max-width: 255px;
     }
     a.forgot, .forgot {
         max-width: 100%;
@@ -227,17 +228,18 @@
 @media all and (max-width: 1024px) {
     .wrapper {
         margin-top: 58px;
-        margin-bottom: -840px;
+        margin-bottom: -820px;
     }
     .wrapper:after {
-        height: 840px;
+        height: 820px;
     }
     .home .wrapper {
-        margin-bottom: -844px;
+        margin-bottom: -764px;
     }
     .home .wrapper:after {
-        height: 930px;
+        height: 764px;
     }
+
     .footer-coll-list > li {
         width: 50% !important;
         margin-bottom: 40px;
@@ -275,6 +277,7 @@
         padding-left: 0;
         font-size: 7px;
         text-transform: uppercase;
+        opacity: 1;
     }
     .login span:before {
         top: 0;
@@ -436,6 +439,13 @@
     .hero-list {
         top: 45px;
     }
+    .home #footer {
+        padding-top: 20px;
+        border-top: none;
+    }
+    #footer {
+        padding-bottom: 20px;
+    }
 }
 
 @media all and (max-width: 991px) {
@@ -592,18 +602,20 @@
         /*display: none;*/
     }
     .wrapper {
-        margin-bottom: -665px;
+        margin-bottom: -550px;
     }
     .wrapper:after {
-        height: 665px;
+        height: 550px;
     }
-    /*.home .wrapper {*/
-        /*margin-bottom: -930px;*/
-    /*}*/
-    /*.home .wrapper:after {*/
-        /*height: 930px;*/
-    /*}*/
-
+    .home .wrapper {
+        margin-bottom: -612px;
+    }
+    .home .wrapper:after {
+        height: 612px;
+    }
+.home #footer {
+    padding-top: 100px;
+}
 #footer {
     padding-top: 36px;
     padding-bottom: 10px;
@@ -1200,6 +1212,13 @@
     a.btn-more-accounts:after,
     .btn-more-accounts:after {
         font-size: 13px;
+    }
+    .have-questions a {
+        color: #444444;
+    }
+    .have-questions a:hover,
+    .have-questions a:focus {
+        color: #d4000d;
     }
 }
 
