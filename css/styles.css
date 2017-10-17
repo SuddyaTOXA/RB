@@ -1108,6 +1108,10 @@ a.nav-btn:after,
     .header-login-box .login:focus {
         text-decoration: none;
     }
+        .header-login-box .login:hover span,
+        .header-login-box .login:focus span {
+            opacity: 1;
+        }
         .login span:hover,
         .login span:focus,
         .login span:hover:before,
