@@ -10,10 +10,6 @@
     }
 }
 @media all and (max-width: 1800px) {
-    /*.horse_h,*/
-    /*.cloud-box {*/
-        /*display: none;*/
-    /*}*/
     .horse_h {
         max-width: 280px;
     }
@@ -22,12 +18,8 @@
     }
 }
 @media all and (max-width: 1600px) {
-
     .call-box {
         margin-right: 40px;
-    }
-    .table-box {
-        /*height: 525px;*/
     }
 }
 @media all and (max-width: 1490px) {
@@ -53,7 +45,6 @@
         .cloud-text-box {
             font-size: 36px;
         }
-
         .hero-list {
             top: 40px;
             padding-left: 340px;
@@ -73,18 +64,11 @@
         height: 525px;
     }
 }
-
 @media all and (max-width: 1380px) {
-    /*.horse_h,*/
-    /*.cloud-box {*/
-        /*display: block;*/
-    /*}*/
     .horse_h {
         max-width: 260px;
     }
 }
-
-
 @media all and (max-width: 1300px) {
     .home .logo,
     .logo {
@@ -110,7 +94,6 @@
         text-decoration: none;
     }
 }
-
 @media all and (max-width: 1280px) {
     .horse {
         display: none;
@@ -125,7 +108,6 @@
         font-size: 80px;
     }
 }
-
 @media all and (max-width: 1120px) {
     .main-nav > ul > li > a {
         padding-left: 7px;
@@ -135,12 +117,7 @@
         margin-bottom: -40px;
     }
 }
-
 @media all and (max-width: 1080px) {
-    /*.table-cell-box {*/
-        /*display: table;*/
-        /*height: auto;*/
-    /*}*/
     .table-box .left-box,
     .table-box .right-box {
         float: none;
@@ -218,13 +195,11 @@
         font-size: 13px;
     }
 }
-
 @media all and (min-width: 1025px) {
     .login-bottom-box ul {
         margin-top: -14px;
     }
 }
-
 @media all and (max-width: 1024px) {
     .wrapper {
         margin-top: 58px;
@@ -239,7 +214,6 @@
     .home .wrapper:after {
         height: 764px;
     }
-
     .footer-coll-list > li {
         width: 50% !important;
         margin-bottom: 40px;
@@ -356,6 +330,10 @@
         right: 0;
         min-height: 62px;
         background-color: #D4000D;
+        -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+        -o-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
     }
     .home .logo,
     .logo {
@@ -366,23 +344,15 @@
         margin: 0 auto;
         padding: 0;
     }
-    /*.home .logo {*/
-        /*margin-top: 0;*/
-        /*max-width: 182px;*/
-    /*}*/
     .mob-logo {
         display: block;
     }
     .home .home-logo,
     .desktop-logo { display: none }
-    /*.desktop-logo { display: none; }*/
-    /*.mob-logo { display: block; }*/
     .hide-el { display: block; }
-
     .mob-map-nav {
         display: block;
     }
-    /*.top-bar,*/
     .top-bar {
         padding-left: 20px;
         height: 100%;
@@ -423,14 +393,7 @@
     .nav-tabs-box {
         margin-right: 0;
     }
-    .card,
-    .card-b,
-    .pig,
-    .pig-b,
-    .squirrel,
-    .money,
-    .sheep,
-    .sheep-b {
+    .card, .card-b, .pig, .pig-b, .squirrel, .money, .sheep, .sheep-b {
         display: none;
     }
     .rope_h {
@@ -452,11 +415,9 @@
     .title {
         font-size: 32px;
     }
-
     a.btn-small, .btn-small {
         font-size: 12px;
     }
-
     a.btn-big, .btn-big {
         font-size: 16px;
         padding: 23px 60px 20px 32px;
@@ -468,18 +429,15 @@
     .section-title {
         font-size: 54px;
     }
-
     .section-content {
         padding-top: 60px;
     }
     .content-title {
         font-size: 50px;
     }
-
     .content.big {
         font-size: 16px;
     }
-
     .section-title-box {
         margin-top: 0;
     }
@@ -500,12 +458,10 @@
         margin-top: 10px;
         margin-left: 0;
     }
-
     .advantages-list,
     .text-box {
         font-size: 16px;
     }
-
     a.map-item-title, .map-item-title {
         font-size: 18px;
     }
@@ -560,7 +516,6 @@
         font-size: 24px;
     }
 }
-
 @media all and (max-width: 860px) {
     .footer-coll-list > li.big-coll {
         width: 50%;
@@ -573,15 +528,6 @@
         font-size: 60px;
     }
 }
-
-@media all and (max-width: 790px) {
-
-}
-
-@media all and (max-width: 768px) {
-
-}
-
 @media all and (max-width: 767px) {
     .container {
         padding: 0 15px;
@@ -597,9 +543,6 @@
     .section-faqs .container,
     .section-rewards-checking .container {
         max-width: 320px;
-    }
-    #main-content {
-        /*display: none;*/
     }
     .wrapper {
         margin-bottom: -550px;
@@ -765,17 +708,6 @@
                     padding-left: 7px;
                     padding-right: 7px;
                 }
-            /*a.full-site,*/
-            /*.full-site {*/
-                /*display: block;*/
-            /*}*/
-
-
- /*----------MAIN----------*/
-/*.table-cell-box {*/
-    /*display: table;*/
-    /*height: auto;*/
-/*}*/
     .table-box .left-box,
     .table-box .right-box {
         float: none;
@@ -809,14 +741,11 @@
                 font-size: 10px;
                 line-height: 1.5;
             }
-
     a.btn, .btn,
     .info-box .btn {
-        /*min-width: 154px;*/
         font-size: 11px;
         padding: 13px 9px 11px 14px;
     }
-
     a.btn:after, .btn:after {
         -moz-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
@@ -847,7 +776,6 @@
         right: 11px;
         font-size: 8px;
     }
-
     a.custom-link, .custom-link {
         display: none;
     }
@@ -1033,7 +961,6 @@
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
-
     }
     .section-title {
         font-size: 32px;
@@ -1117,9 +1044,6 @@
 }
     .yep-box {
         margin-bottom: -60px;
-        /*background-repeat: repeat-x;*/
-        /*background-position: left;*/
-        /*background-size: auto;*/
     }
     .yep-box .container {
         max-width: 320px;
@@ -1169,9 +1093,6 @@
         top: -97px;
         margin-left: -25px;
     }
-
-
-
     .hero-value {
         font-size: 75px;
         letter-spacing: -.02em;
@@ -1221,7 +1142,6 @@
         color: #d4000d;
     }
 }
-
 @media all and (max-width: 520px) {
     .rope_h {
         top: 163px;
@@ -1233,7 +1153,6 @@
         margin: 0;
     }
 }
-
 @media all and (max-width: 440px) {
     .hero-list {
         margin-right: -60px;
